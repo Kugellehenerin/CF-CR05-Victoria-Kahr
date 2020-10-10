@@ -1,0 +1,110 @@
+body {
+    background-color: lightgrey;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    background-color: #000000;
+}
+
+.factory {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.home {
+    color: #ffffff;
+    background-color: #454545;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 0.5em;
+    padding-left: 0.7em;
+}
+
+.head {
+    color: #ffffff;
+    background-color: #1d2329;
+    padding: 2em;
+    display: flex;
+}
+
+.head>h4 {
+    position: relative;
+    left: 46%;
+}
+
+.btn-group {
+    position: relative;
+    left: 60%;
+}
+
+
+/*Styling the Movieboxes with Bootsstrap*/
+
+.container {
+    padding-top: 2em;
+    background-color: #1d2329;
+    color: #ffffff;
+}
+
+.movie {
+    background-color: #181818;
+    height: 280px;
+    margin-bottom: 2em;
+    display: flex;
+}
+
+
+/*Style the Infobox*/
+
+.movie>img {
+    position: absolute;
+    top: 9%;
+    margin-left: 2%;
+    border: 3px solid #1d2329;
+    border-radius: 10%;
+}
+
+.movie>h4 {
+    position: absolute;
+    top: 15%;
+    margin-left: 35%;
+}
+
+.movie>p {
+    position: absolute;
+    top: 25%;
+    margin-left: 35%;
+    margin-right: 10%;
+}
+
+.like {
+    position: absolute;
+    top: 67%;
+    margin-left: 75%;
+    color: white;
+    font-weight: bold;
+    padding: 2%;
+    border-radius: 100%;
+    background-color: #218838;
+}
+
+#button {
+    position: absolute;
+    top: 70%;
+    margin-left: 35%;
+}
+
+footer {
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 2em;
+    padding: 1em;
+}

@@ -1,0 +1,36 @@
+var movie = `[{
+    "movieName": "Princess Mononoke",
+    "image":"img/princess_mononoke.jpg",
+    "description": "Short descrtiption",
+    "likes": 0
+},
+{
+    "movieName": "My Neighbor Totoro",
+    "image":"img/my_neighbor_totoro.jpg",
+    "description": "Short descrtiption",
+    "likes": 0
+},
+{  
+    "movieName": "Spirited Away",
+    "image":"img/spirited_away.jpg",
+    "description": "Short descrtiption",
+    "likes": 0
+},
+{
+    "movieName": "A Silent Voice",
+    "image":"img/a_silent_voice.jpg",
+    "description": "Short descrtiption",
+    "likes": 0
+},
+{
+    "movieName": "Your Name",
+    "image":"img/your_name.jpg",
+    "description": "Short descrtiption",
+    "likes": 0
+},
+{
+    "movieName": "Weathering with You",
+    "image":"img/weathering_with_you.jpg",
+    "description": "Short descrtiption",
+    "likes": 0
+}]`;

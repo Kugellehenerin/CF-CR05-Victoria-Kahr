@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CF-CR05-Victoria-Kahr</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Link for the Like-Button-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <!--Header-Start-->
+    <header>
+        <h1 class="factory"> Movie Factory</h1>
+        <div class="home">Home</div>
+    </header>
+    <!--Header-End-->
+
+    <!--Movies Start-->
+    <div class="head">
+        <h4>Movies</h4>
+        <!--Dropdown-Button-->
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Sort</button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Create a Bootstrap Container for rows-->
+    <div class="container">
+        <!--Have 2 column for 3 rows-->
+        <div class="row">
+            <div class="col-6 col-sm-12 col-lg-6">
+                <div class="content h-100">
+                    <div class="movie">
+                        <img src="img/princess_mononoke.jpg" alt="princess_mononoke" width="150px" height="auto">
+                        <h4>Princess Mononoke</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <!--Create for every Movie one extra Like Button-->
+                        <div class="like" type="text" id="show1">0</div>
+                        <button type="button" class="btn btn-success" id="button" onclick="like1()">Like <i class="far fa-thumbs-up"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-12 col-lg-6 ">
+                <div class="content h-100">
+                    <div class="movie">
+                        <img src="img/my_neighbor_totoro.jpg" alt="princess_mononoke" width="150px" height="auto">
+                        <h4>My Neighbor Totoro</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <!--Create for every Movie one extra Like Button-->
+                        <div class="like" type="text" id="show2">0</div>
+                        <button type="button" class="btn btn-success" id="button" onclick="like2()">Like <i class="far fa-thumbs-up"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Have 2 column for 3 rows-->
+        <div class="row">
+            <div class="col-6 col-sm-12 col-lg-6">
+                <div class="content h-100">
+                    <div class="movie">
+                        <img src="img/spirited_away.jpg" alt="princess_mononoke" width="150px" height="auto">
+                        <h4>Spirited Away</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <!--Create for every Movie one extra Like Button-->
+                        <div class="like" type="text" id="show3">0</div>
+                        <button type="button" class="btn btn-success" id="button" onclick="like3()">Like <i class="far fa-thumbs-up"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-12 col-lg-6 ">
+                <div class="content h-100">
+                    <div class="movie">
+                        <img src="img/a_silent_voice.jpg" alt="princess_mononoke" width="150px" height="auto">
+                        <h4>A Silent Voice</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <!--Create for every Movie one extra Like Button-->
+                        <div class="like" type="text" id="show4">0</div>
+                        <button type="button" class="btn btn-success" id="button" onclick="like4()">Like <i class="far fa-thumbs-up"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Have 2 column for 3 rows-->
+        <div class="row">
+            <div class="col-6 col-sm-12 col-lg-6">
+                <div class="content h-100">
+                    <div class="movie">
+                        <img src="img/your_name.jpg" alt="princess_mononoke" width="150px" height="auto">
+                        <h4>Your Name</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <!--Create for every Movie one extra Like Button-->
+                        <div class="like" type="text" id="show5">0</div>
+                        <button type="button" class="btn btn-success" id="button" onclick="like5()">Like <i class="far fa-thumbs-up"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-sm-12 col-lg-6 ">
+                <div class="content h-100">
+                    <div class="movie">
+                        <img src="img/weathering_with_you.jpg" alt="princess_mononoke" width="150px" height="auto">
+                        <h4>Weathering with You</h4>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <!--Create for every Movie one extra Like Button-->
+                        <div class="like" type="text" id="show6">0</div>
+                        <button type="button" class="btn btn-success" id="button" onclick="like6()">Like <i class="far fa-thumbs-up"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Movies-End-->
+    <!--Footer-Start-->
+    <footer>Movie Factory</footer>
+    <!--Footer-End-->
+    <!--Add the JavaScript-->
+    <script src="script.js"></script>
+</body>
+
+</html>
